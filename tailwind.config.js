@@ -5,9 +5,9 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          base: 'HSL: (203, 89%, 53%)',
-          dark: 'HSL: (203, 89%, 46%)',
-          light: 'HSL: (203, 89%, 96%)',
+          base: 'hsl(203, 89% , 53%)',
+          dark: 'hsl(203, 89% , 46%)',
+          light: 'hsl(203, 89% , 96%)',
         },
         gray: {
           dark: '#657786',
