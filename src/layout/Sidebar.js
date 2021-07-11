@@ -1,6 +1,8 @@
 import React from 'react'
+import UserShare from '../components/UserShare'
 
 import twitterLogo from '../images/twitter.svg'
+
 import {
   BookmarksIcon,
   ExploreIcon,
@@ -10,6 +12,7 @@ import {
   MoreIcon,
   NotificationsIcon,
   ProfileIcon,
+  UserIcon,
 } from '../icons/İcons'
 import SideLink from '../components/SideLink'
 
@@ -55,7 +58,7 @@ const Sidebar = () => {
         <img src={twitterLogo} alt="Twitter Logo" className="w-9 h-9"></img>
         <nav className="mb-4">
           <ul>
-            {sideLinks.map(({ name, icon, link }) => (
+            {sideLinks.map(({ name, icon }) => (
               <SideLink key={name} name={name} İcon={icon} />
             ))}
           </ul>
@@ -64,7 +67,9 @@ const Sidebar = () => {
           Tweet
         </button>
       </div>
-      <div>alt</div>
+      <div className="">
+        <UserShare />
+      </div>
     </div>
   )
 }
