@@ -53,7 +53,7 @@ const sideLinks = [
 
 const Sidebar = () => {
   return (
-    <div className="w-72  bg-white flex flex-col justify-between px-2">
+    <div className=" w-72 h-screen sticky top-0	  bg-white flex flex-col justify-between px-2">
       <div>
         <img src={twitterLogo} alt="Twitter Logo" className="w-9 h-9"></img>
         <nav className="mb-4">
