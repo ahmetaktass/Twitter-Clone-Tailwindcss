@@ -1,5 +1,8 @@
 import React from 'react'
+import Divider from '../components/Divider'
+import TweetBox from '../components/TweetBox'
 import { PopulerIcon } from '../icons/İcons'
+import userİmg from '../images/userİmg.jpeg'
 
 const Content = () => {
   return (
@@ -8,150 +11,15 @@ const Content = () => {
         <span className="font-bold text-xl text-gray-900">Home</span>
         <PopulerIcon />
       </header>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem porro quasi
-        veritatis magnam, autem maxime distinctio? Neque harum modi aspernatur,
-        natus quibusdam facilis quos dicta ex, consectetur laboriosam, assumenda
-        vero.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem porro quasi
-        veritatis magnam, autem maxime distinctio? Neque harum modi aspernatur,
-        natus quibusdam facilis quos dicta ex, consectetur laboriosam, assumenda
-        vero.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem porro quasi
-        veritatis magnam, autem maxime distinctio? Neque harum modi aspernatur,
-        natus quibusdam facilis quos dicta ex, consectetur laboriosam, assumenda
-        vero.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem porro quasi
-        veritatis magnam, autem maxime distinctio? Neque harum modi aspernatur,
-        natus quibusdam facilis quos dicta ex, consectetur laboriosam, assumenda
-        vero.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem porro quasi
-        veritatis magnam, autem maxime distinctio? Neque harum modi aspernatur,
-        natus quibusdam facilis quos dicta ex, consectetur laboriosam, assumenda
-        vero.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem porro quasi
-        veritatis magnam, autem maxime distinctio? Neque harum modi aspernatur,
-        natus quibusdam facilis quos dicta ex, consectetur laboriosam, assumenda
-        vero.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem porro quasi
-        veritatis magnam, autem maxime distinctio? Neque harum modi aspernatur,
-        natus quibusdam facilis quos dicta ex, consectetur laboriosam, assumenda
-        vero.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem porro quasi
-        veritatis magnam, autem maxime distinctio? Neque harum modi aspernatur,
-        natus quibusdam facilis quos dicta ex, consectetur laboriosam, assumenda
-        vero.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem porro quasi
-        veritatis magnam, autem maxime distinctio? Neque harum modi aspernatur,
-        natus quibusdam facilis quos dicta ex, consectetur laboriosam, assumenda
-        vero.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem porro quasi
-        veritatis magnam, autem maxime distinctio? Neque harum modi aspernatur,
-        natus quibusdam facilis quos dicta ex, consectetur laboriosam, assumenda
-        vero.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem porro quasi
-        veritatis magnam, autem maxime distinctio? Neque harum modi aspernatur,
-        natus quibusdam facilis quos dicta ex, consectetur laboriosam, assumenda
-        vero.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem porro quasi
-        veritatis magnam, autem maxime distinctio? Neque harum modi aspernatur,
-        natus quibusdam facilis quos dicta ex, consectetur laboriosam, assumenda
-        vero.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem porro quasi
-        veritatis magnam, autem maxime distinctio? Neque harum modi aspernatur,
-        natus quibusdam facilis quos dicta ex, consectetur laboriosam, assumenda
-        vero.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem porro quasi
-        veritatis magnam, autem maxime distinctio? Neque harum modi aspernatur,
-        natus quibusdam facilis quos dicta ex, consectetur laboriosam, assumenda
-        vero.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem porro quasi
-        veritatis magnam, autem maxime distinctio? Neque harum modi aspernatur,
-        natus quibusdam facilis quos dicta ex, consectetur laboriosam, assumenda
-        vero.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem porro quasi
-        veritatis magnam, autem maxime distinctio? Neque harum modi aspernatur,
-        natus quibusdam facilis quos dicta ex, consectetur laboriosam, assumenda
-        vero.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem porro quasi
-        veritatis magnam, autem maxime distinctio? Neque harum modi aspernatur,
-        natus quibusdam facilis quos dicta ex, consectetur laboriosam, assumenda
-        vero.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem porro quasi
-        veritatis magnam, autem maxime distinctio? Neque harum modi aspernatur,
-        natus quibusdam facilis quos dicta ex, consectetur laboriosam, assumenda
-        vero.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem porro quasi
-        veritatis magnam, autem maxime distinctio? Neque harum modi aspernatur,
-        natus quibusdam facilis quos dicta ex, consectetur laboriosam, assumenda
-        vero.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem porro quasi
-        veritatis magnam, autem maxime distinctio? Neque harum modi aspernatur,
-        natus quibusdam facilis quos dicta ex, consectetur laboriosam, assumenda
-        vero.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem porro quasi
-        veritatis magnam, autem maxime distinctio? Neque harum modi aspernatur,
-        natus quibusdam facilis quos dicta ex, consectetur laboriosam, assumenda
-        vero.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem porro quasi
-        veritatis magnam, autem maxime distinctio? Neque harum modi aspernatur,
-        natus quibusdam facilis quos dicta ex, consectetur laboriosam, assumenda
-        vero.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem porro quasi
-        veritatis magnam, autem maxime distinctio? Neque harum modi aspernatur,
-        natus quibusdam facilis quos dicta ex, consectetur laboriosam, assumenda
-        vero.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem porro quasi
-        veritatis magnam, autem maxime distinctio? Neque harum modi aspernatur,
-        natus quibusdam facilis quos dicta ex, consectetur laboriosam, assumenda
-        vero.
-      </p>
+      <div className="flex px-3 py-2 space-x-4">
+        <img
+          src={userİmg}
+          alt="Twitter Logo"
+          className="w-10 h-10 rounded-full"
+        ></img>
+        <TweetBox />
+      </div>
+      <Divider />
     </main>
   )
 }
